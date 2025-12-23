@@ -1,0 +1,8 @@
+[package]
+name = "nanuk"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+num-traits = "0.2.19"
+polars = { version = "0.52.0", features = ["csv"] }
